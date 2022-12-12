@@ -1,0 +1,429 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.wrapper {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-content: center;
+background: url(image/backgground.jpg);
+min-height: 100vh;
+
+} 
+
+.container-resume {
+display: flex;
+max-width: 750px;
+align-content: center;
+justify-content: center;
+margin-top: 50px;
+margin-bottom: 50px;
+
+} 
+
+.container-resume__item-info {
+font-family: 'Montserrat Alternates', sans-serif;
+color: white;
+display: inline-flex;
+flex-direction: column;
+max-width: 350px;
+width: 40%;
+background-color: rgb(36, 34, 34);
+
+}
+
+
+.image {
+display: flex;
+background: url(image/аватарка.jpg);
+height: 400px;
+width: 300px;;
+flex-direction: column-reverse;
+
+}
+
+.name {
+height: 120px;
+background-color: rgba(65, 18, 18, 0.8) ;
+padding: 15px 20px 15px 20px;
+}
+
+.title{
+font-size: 12px;
+}
+
+.about{
+ padding: 15px 20px 0px 20px;    
+}
+
+.subtitle{
+padding-top: 10px;
+margin-bottom: 10px;
+}
+
+.about p{
+text-align: justify;
+margin-bottom: 20px;
+font-size: 14px;
+padding-top: 15px;
+   
+}
+
+
+.line {
+width: 70%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+/* margin-bottom: 15px; */
+padding: 0;
+height: 0; 
+}
+
+hr{
+border: none;
+border-top: 3px solid rgba(65, 18, 18);
+border-radius: 50%;
+} 
+
+.language{
+    padding: 15px 20px 15px 20px;
+}
+
+
+.link li{
+    margin-bottom: 20px;
+}
+
+.link{
+    max-width: 40%;
+    margin-right: 10px;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+.container {
+display: flex;
+flex-direction: row;
+}
+
+.items{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+padding-top: 23px;
+padding-right: 20px;
+width: 100%;
+}
+
+.item12{
+    display: flex;
+    margin-bottom: 30px;
+
+}
+.item34{
+    display: flex;
+}
+
+.blok1{
+    width: 60px;
+    height: 7px;
+    border: solid 1px white;
+    border-radius: 15px;
+    background-color: white;
+    margin-right: 7px;
+
+}
+.blok2{
+    width: 100px;
+    height: 7px;
+    border: solid 1px white;
+    border-radius: 15px;
+}
+
+.blok3{
+    width: 130px;
+    height: 7px;
+    border: solid 1px white;
+    border-radius: 15px;
+    background-color: white;
+    margin-right: 7px;
+}
+.blok4{
+    width: 30px;
+    height: 7px;
+    border: solid 1px white;
+    border-radius: 15px;
+}
+
+.contacts{
+    padding: 0px 20px 15px 20px;
+}
+
+.contacts__item {
+    display: flex;
+    flex-direction: row;
+    padding-top: 15px;
+}
+
+.contacts__item p{
+padding-top: 10px;
+}
+
+.img__telephone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(65, 18, 18);
+    border-radius: 50px;
+    margin-right: 15px;
+}
+
+
+.img__email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(65, 18, 18);
+    border-radius: 50px;
+    margin-right: 15px;
+   
+}
+
+.img__address{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(65, 18, 18);
+    border-radius: 50px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+.container-resume__item-skills{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: rgb(248, 244, 245);
+    width: 60%;
+    padding: 15px 40px 15px 40px;
+    color: rgb(94, 71, 71);
+
+}
+
+.line {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    padding: 0;
+    height: 0; 
+}
+
+.education {
+    margin-bottom: 20px;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    padding-top: 15px;
+}
+
+.box li{
+padding-left: 25px;
+font-size: 19px;
+font-weight: 900;
+
+
+}
+
+.decor {
+    border: solid rgba(65, 18, 18) 1px;
+    margin-right: 20px;
+}
+
+.position{
+    position: relative;
+    right:  5px; ;
+}
+
+
+.kolleg {
+margin-bottom: 20px;
+}
+
+.kolleg p{
+font-size: 13px;
+}
+
+.institut p {
+font-size: 13px;
+}
+
+.expertise{
+margin-bottom: 25px;
+}
+.mm{
+    padding-top: 15px;
+    margin-bottom: 25px;
+}
+
+.mm p{
+font-size: 14px;
+}
+.company{
+margin-bottom: 25px;
+font-size: 13px;
+
+}
+
+.artis{
+    margin-bottom: 20px;
+}
+
+.artis p{
+font-size: 14px;
+}
+
+.work-title{
+    font-size: 19px;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+
+}
+
+.expertise__container {
+list-style-position: inside;
+display: flex;
+flex-direction: row;
+}
+
+.expertise-title   {
+font-size: 19px;
+margin-bottom: 20px;
+padding-top: 10px;
+}
+
+.expertise__link li {
+margin-bottom: 5px;
+margin-right: 15px;
+}
+
+.expertise__items{
+    padding-top: 8px;
+}
+.items12,
+.items34,
+.items56,
+.items78,
+.items910{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 16.5px;
+}
+
+.item1,
+.item2,
+.item3,
+.item4,
+.item5,
+.item6,
+.item7,
+.item8,
+.item9,
+.item10
+{
+height: 7px;
+border-radius: 15px;
+border: solid 1px rgba(65, 18, 18);
+}
+
+.item1,
+.item3,
+.item5,
+.item7,
+.item9 {
+    margin-right: 10px;
+    background-color: rgba(65, 18, 18);
+}
+
+.item1 {width: 60px;}
+.item2 {width: 180px;}
+.item3 {width: 120px;}
+.item4 {width: 120px;}
+.item5 {width: 200px;}
+.item6 {width: 40px;}
+.item7 {width: 190px;}
+.item8 {width: 50px;}
+.item9 {width: 170px;}
+.item10 {width: 70px;}
+
+.expertise__links li{
+    list-style-position: inside;
+    margin-bottom: 6px;
+    margin-right: 10px;
+}
+
+.expertise__container1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.items1112,
+.items1314,
+.items1516,
+.items1718{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 17.5px;
+}
+
+.item1-1,
+.item1-2,
+.item13,
+.item14,
+.item15,
+.item16,
+.item17,
+.item18{
+    height: 7px;
+    width: 50px;
+    border-radius: 15px;
+    border: solid 1px rgba(65, 18, 18); 
+}
+
+.item1-1,
+.item13,
+.item15,
+.item17{
+    margin-right: 10px;
+    background-color: rgba(65, 18, 18);
+}
+
+.item1-1{width: 60px;}
+.item1-2{width: 70px;}
+.item13{width: 120px;}
+.item14{width: 10px;}
+.item15{width: 110px;}
+.item16{width: 20px;}
+.item17{width: 100px;}
+.item18{width: 30px;}
